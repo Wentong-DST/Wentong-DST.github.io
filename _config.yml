@@ -7,12 +7,11 @@
 
 # Site settings
 title: Individual Thought Patterns
-#email: your-email@domain.com
+email: markngsayyao@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Under construction.
+  Mathematics, Statistics, Computer Science etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mollymr305.github.io" # the base hostname & protocol for your site
-twitter_username: mollymr305
 github_username:  mollymr305
 
 # Build settings

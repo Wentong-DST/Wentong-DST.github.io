@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Something about dice."
-date:   2016-06-01 00:00:01 +0800
+date:   2016-06-01 00:08:01 +0800
 author: Mark N
 categories:
 ---

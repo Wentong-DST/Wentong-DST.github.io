@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Playing with roots."
-date:   2016-06-01 00:00:03 +0800
+date:   2016-06-01 00:08:03 +0800
 author: Mark N
 categories:
 ---

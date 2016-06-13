@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Catalan lemma."
-date:   2016-06-01 00:00:04 +0800
+date:   2016-06-01 00:08:04 +0800
 author: Mark N
 categories:
 ---

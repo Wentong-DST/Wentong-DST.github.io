@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Products of uniform random variables."
-date:   2015-07-07 00:00:00 +0800
+date:   2016-06-01 00:00:02 +0800
 author: Mark N
 categories:
 ---
@@ -24,9 +24,9 @@ $$
 
 **What is the density of the product of $$n$$ i.i.d. uniform random variables $$X_{1}, \dots,X_{n} \sim \mathcal{U}(0,1)$$?**
 
-*Claim:* the density is given by $$ f_{Z_{n}} (z) = \frac{ (- \ln z )^{n-1} }{(n-1)!}$$, where $$Z_{n} = \prod_{i=1}^{n}X_{i}$$.
+*Claim:* The density is given by $$ f_{Z_{n}} (z) = \frac{ (- \ln z )^{n-1} }{(n-1)!}$$, where $$Z_{n} = \prod_{i=1}^{n}X_{i}$$.
 
-*Proof.* Apply induction. When $$n = 1$$ the statement is true. Therefore, suppose it is true for some $$ n \in \mathbb{N} $$. Let $$Y = X_{1} \cdots X_{n}$$. Then $$f_{Y}(y) = \frac{(-\ln y)^{n-1}}{(n-1)!} $$. By considering $$Z_{n+1} = X_{1} \cdots X_{n}X_{n+1} = Y X_{n+1}$$, this implies
+*Proof.* Apply induction. When $$n = 1$$ the statement is true. Therefore, suppose it is true for some $$ n \in \mathbb{N} $$. Let $$Y = X_{1} \cdots X_{n}$$, then $$f_{Y}(y) = \frac{(-\ln y)^{n-1}}{(n-1)!} $$. By considering $$Z_{n+1} = X_{1} \cdots X_{n}X_{n+1} = Y X_{n+1}$$, this implies
 
 $$
 \begin{aligned}

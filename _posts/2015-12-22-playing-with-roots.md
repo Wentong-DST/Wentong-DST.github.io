@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Playing with roots."
-date:   2015-12-22 00:00:00 +0800
+date:   2016-06-01 00:00:03 +0800
 author: Mark N
 categories:
 ---
+Tricks with sequences.
 
+<hr>
 <hr>
 <center>
 	$$
@@ -19,6 +21,7 @@ categories:
 	$$	
 </center>
 <hr>
+<hr>
 <center>
 	$$
 	\begin{aligned}
@@ -31,6 +34,7 @@ categories:
 	$$
 </center>
 <hr>
+<hr>
 <center>
 	$$
 	\begin{aligned}
@@ -41,6 +45,7 @@ categories:
 	\end{aligned}
 	$$
 </center>
+<hr>
 <hr>
 <center>
 	$$
@@ -54,6 +59,7 @@ categories:
 	$$
 </center>
 <hr>
+<hr>
 <center>
 	$$ 
 	\begin{aligned}
@@ -64,6 +70,7 @@ categories:
 	$$
 </center>
 <hr>
+<hr>
 <center>
 	$$ 
 	\begin{aligned}
@@ -73,4 +80,5 @@ categories:
 	\end{aligned}
 	$$
 </center>
+<hr>
 <hr>

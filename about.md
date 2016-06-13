@@ -13,6 +13,13 @@ Also a dumping ground for some of my (future) projects.
 Contact me: markngsayyao at gmail dot com.
 
 <br>
+
 <center>
 -- mollymr305 --
+</center>
+
+<br><br><br>
+
+<center>
+    <img src="/pictures/cat_guardian.jpg" height="256" width="256">
 </center>

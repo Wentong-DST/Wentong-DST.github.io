@@ -24,8 +24,8 @@ categories:
 	\begin{aligned}
 		\sqrt{2\sqrt[3]{2\sqrt[4]{2\cdots}}}
 		& = (2(2(2\cdots)^{\frac{1}{4}})^{\frac{1}{3}})^{\frac{1}{2}} \\
-		& = 2^{\frac{1}{2!} + \frac{1}{3!} + \frac{1}{{4!}} + \dots} \\
-		& = 2^{-2 + \frac{1}{0!} + \frac{1}{1!} +\frac{1}{2!} + \frac{1}{3!} + \frac{1}{{4!}} + \dots} \\
+		& = 2^{\frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \dots} \\
+		& = 2^{-2 + \frac{1}{0!} + \frac{1}{1!} +\frac{1}{2!} + \frac{1}{3!} + \frac{1}{4!} + \dots} \\
 		& = 2^{\text{e}-2}
 	\end{aligned}
 	$$

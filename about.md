@@ -6,7 +6,7 @@ permalink: /about/
 
 I am a final year undergraduate from the National University of Singapore (NUS).
 
-Thoughts on mathematics, statistics and computer science - often inspired by conversations with friends, or whatever I am currently working on. All posts dated Jun 1, 2016 are older blog posts (on wordpress).
+Just some thoughts on mathematics, statistics and computer science - often inspired by conversations with friends, or whatever I am currently working on. All posts dated Jun 1, 2016 are older blog posts (on wordpress).
 
 Also a dumping ground for some of my (future) projects. 
 

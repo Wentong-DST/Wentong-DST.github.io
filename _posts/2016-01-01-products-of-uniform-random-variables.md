@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Products of uniform random variables."
-date:   2016-06-01 00:08:02 +0800
+date:   2016-06-01 00:12:02 +0800
 author: Mark N
 categories:
 ---

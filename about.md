@@ -21,5 +21,5 @@ Contact me: markngsayyao at gmail dot com.
 <br><br><br>
 
 <center>
-    <img src="/pictures/cat_guardian.png" height="256" width="256">
+    <img src="/pictures/cat_guardian.jpg" height="256" width="256">
 </center>

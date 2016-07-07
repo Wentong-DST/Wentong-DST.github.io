@@ -52,4 +52,4 @@ C_{k}
 \end{aligned}
 $$
 </center>
-It is clear that $$\mathbf{E}X^{0} = 1 = C_{0}$$. Inductively, $$\mathbf{E}X^{2k} = C_{k}$$ for all integers $$ k \geq 0$$; and this completes the proof.
+It is clear that $$\mathbf{E}X^{0} = 1 = C_{0}$$. Inductively, $$\mathbf{E}X^{2k} = C_{k}$$ for all integers $$ k \geq 0$$. This completes the proof.

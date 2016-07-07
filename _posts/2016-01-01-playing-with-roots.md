@@ -5,7 +5,7 @@ date:   2016-06-01 12:00:03 +0800
 author: Mark N
 categories:
 ---
-Tricks with sequences.
+Tricks.
 
 <hr>
 <hr>

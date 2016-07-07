@@ -1,0 +1,24 @@
+<nav>
+  <h1>Sleep when you're dead.</h1>
+  <a href="/">
+    {% if site.data.theme.social.gravatar %}
+    <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
+    {% else %}
+    <img src="/cat_guardian.jpg" id="logo" alt="Blog logo" height="200" width="200" />
+    {% endif %}
+  </a>
+  <h2><a href="/">{{ site.data.theme.name }}</a>.</h2>
+  <div id="bio">
+    <p>
+      Mathematics, Statistics, Computer Science etc.
+    </p>
+  </div>
+  <div id="social">
+  <center>{% include social.html %}</center>
+  </div>
+  <div id="social">
+    <p>I am a final year undergraduate from the National University of Singapore (NUS).</p>
+    <p>All posts dated 01 Jun 2016 are older blog posts.</p>
+    <p>Also a dumping ground for some of my (future) projects.</p>
+  </div>
+</nav>

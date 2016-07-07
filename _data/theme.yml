@@ -1,0 +1,33 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+highlight_color: '#000000'
+
+# Profile links on the left sidebar, leave blank to ignore
+social:
+  github: mollymr305
+  #bitbucket: 
+  #hacker_news: 
+  #stackexchange: 
+  #stackoverflow: 
+  twitter: mollymr305
+  #facebook: 
+  #tumblr: 
+  linkedin: mark-ng-a237b889
+  #gplus: 
+  #gravatar: 
+  #flickr: 
+
+# "Hi, I'm _______"
+name: Mark N
+email: markngsayyao@gmail.com
+tagline: "Sleep when you're dead."
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key: UA-xxxx-x
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: true
+
+# Toggle link/icon to view atom feed (/atom.xml) in sidebar
+# show_atom_feed: true

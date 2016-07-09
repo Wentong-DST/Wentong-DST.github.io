@@ -40,7 +40,7 @@ F_{Z_{n+1}}(z) & = \mathbf{P}( Z_{n+1} \leq z ) \\
 \end{aligned} 
 $$
 
-Differentiating the result above finishes the proof;
+Differentiating the expression above finishes the proof;
 
 $$ 
 \begin{aligned}

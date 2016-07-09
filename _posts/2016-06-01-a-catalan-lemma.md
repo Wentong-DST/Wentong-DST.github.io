@@ -9,7 +9,7 @@ categories:
 
 Nice identity relating Catalan numbers $$C_{k} = \frac{(2k)!}{(k+1)!k!}$$ and the moments of the semicircle distribution $$\mathbf{E}X^{k} = \int_{-2}^{2}x^{k}\sigma(x)\text{d}x$$ where $$\sigma(x) = \frac{1}{2\pi}\sqrt{4-x^{2}}$$. 
 
-I learnt about this when I was studying random matrix theory (part of an undergraduate research project). It is an important lemma used in the *moment method* proof of Wigner's semicircle law.
+It is used in a proof of Wigner's semicircle law using the *moment method*.
 
 **Lemma:** Using the notation above, 
 <center>

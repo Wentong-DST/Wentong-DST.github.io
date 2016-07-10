@@ -122,3 +122,5 @@ $$\lim_{n\to\infty}\mathbf{E}\int_{\mathbb{R}}x^{k}\text{d}\eta_{n}^{(m)}=\frac{
 **[3]** Benedek Valkó, “_Lectures 6-7: The Marchenko-Pastur Law_”. Department of Mathematics, University of Wisconsin-Madison, 2009.
 
 **[4]** N. Alexeev, F. Götze, A. Tikhomirov. “_Asymptotic Distribution of Singular Values of Powers of Random Matrices_”. Lithuanian Mathematical Journal, Vol. 50, No. 2, 2010, pp. 121-132.
+
+**[5]** Ronald L. Graham, Donald E. Knuth, Oren Patashnik, “_Concrete Mathematics_”. Addison-Wesley Publishing Company, 1994.

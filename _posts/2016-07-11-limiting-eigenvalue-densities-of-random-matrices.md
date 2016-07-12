@@ -12,7 +12,7 @@ Anyways, I thought it would be nice to do a small introduction and compile some 
 
 **What are random matrices?**
 
-Matrices with random variable entries, for example
+Matrices with random variable entries, e.g.
 
 $$ X_{n} := 
 \begin{bmatrix} 

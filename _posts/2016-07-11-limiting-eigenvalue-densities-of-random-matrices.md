@@ -6,9 +6,9 @@ author: Mark N
 categories:
 ---
 
-Early this year, I got the chance to do some undergraduate research on random matrix theory (more like a study actually). My project was recently nominated for the NUS Centre for Remote Imaging, Sensing and Processing (CRISP) Award and so I'm supposed to prepare a 20-minute talk for the judges to decide who gets the award and whatnot. 
+Early this year, I got the chance to do some undergraduate research on random matrix theory (more like a study actually). My project was recently nominated for the NUS Centre for Remote Imaging, Sensing and Processing (CRISP) Award and so I'm supposed to prepare a 20-minute talk for the judges to decide who give the award to and whatnot. 
 
-Anyways, I thought it would be nice to do a small introduction and compile some basic results here first. The main mathematical tool used is [<u>the moment method</u>](https://en.wikipedia.org/wiki/Method_of_moments_(probability_theory)). Interested readers can refer to [<u>my paper</u>](/pdf/ma3288.pdf "ma3288.pdf") for detailed proofs and references. Note that there are some typos and errors which I've yet to correct (most notably the proof for counting Dyck paths).
+Anyways, I thought it would be nice to do a small introduction and compilation of results here first. The main mathematical tool used is [<u>the moment method</u>](https://en.wikipedia.org/wiki/Method_of_moments_(probability_theory)). Interested readers can refer to [<u>my paper</u>](/pdf/ma3288.pdf "ma3288.pdf") for detailed proofs and references. Note that there are some typos and errors which I've yet to correct (most notably the proof for counting Dyck paths).
 
 **What are random matrices?**
 

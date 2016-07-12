@@ -114,7 +114,7 @@ And similarly the convergence of expected moments can be proven, that is:
 
 $$\lim_{n\to\infty}\mathbf{E}\int_{\mathbb{R}}x^{k}\text{d}\eta_{n}^{(m)}=\frac{1}{mk + 1} \binom{mk + k}{k}=C_{m,k}.$$
 
-The numbers defined by $$C_{m, k}$$ are in fact the single-parameter Fuss Catalan numbers (see reference [5]). Also, this last result can be seen as a generalisation of the Marchenko-Pastur law (which is essentially the case when $$m = 1$$).
+The integers defined by $$C_{m, k}$$ are known as the single-parameter Fuss Catalan numbers. Also, this last result can be seen as a generalisation of the Marchenko-Pastur law, which is essentially the case when $$m = 1$$.
 
 ### Selected References
 

@@ -89,7 +89,7 @@ As a demonstration of the Marchenko-Pastur law (here we use $$y = 0.45$$):
 
 <img src="/pictures/marchenko_pastur_law.jpg" height="175" width="650">
 
-**Singular Values of Matrix Powers**
+**Singular Values of Powers of Random Matrices**
 
 The last result concerns matrices of the form 
 
@@ -115,6 +115,7 @@ And similarly the convergence of expected moments can be proven, that is:
 $$\lim_{n\to\infty}\mathbf{E}\int_{\mathbb{R}}x^{k}\text{d}\eta_{n}^{(m)}=\frac{1}{mk + 1} \binom{mk + k}{k}=C_{m,k}.$$
 
 The integers defined by $$C_{m, k}$$ are known as the single-parameter Fuss Catalan numbers. Also, this last result can be seen as a generalisation of the Marchenko-Pastur law, which is essentially the case when $$m = 1$$.
+
 
 ### Selected References
 

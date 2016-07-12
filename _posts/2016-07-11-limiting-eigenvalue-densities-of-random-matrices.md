@@ -95,7 +95,7 @@ The last result concerns matrices of the form
 
 $$X^{(m)}X^{*(m)} := \underbrace{XX \cdots X}_{m\text{ times}}\cdot\underbrace{X^{*}X^{*} \cdots X^{*}}_{m\text{ times}}$$
 
-Where $$X$$ is a $$n \times n$$ random matrix satifying the following conditions:
+Where $$m$$ is some fixed natural number and $$X$$ is a $$n \times n$$ random matrix satifying the following conditions:
 
 * $$\mathbf{E}X_{ij} = 0$$ and $$\mathbf{E}\lvert X_{ij}\rvert^{2} = 1$$ for all $$1\leq i, j \leq n$$.
 * For any $$k \in \mathbb{N}$$, there exists $$M_{k} \in \mathbb{R}$$ such that $$\mathbf{E}\lvert X_{ij}\rvert^{k} \leq M_{k}$$ for all $$1 \leq i, j \leq n$$.
@@ -108,10 +108,13 @@ Interestingly, the limiting density is not explicity described in the study. It 
 
 $$C_{m, k} = \frac{1}{mk + 1} \binom{mk + k}{k}.$$
 
-And similarly the convergence of expected moments can be proven, that is for any given $$m, k \in \mathbb{N}$$
+And similarly the convergence of expected moments can be proven, that is: 
+
+**Lemma**: For any $$m, k \in \mathbb{N}$$, we have
 
 $$\lim_{n\to\infty}\mathbf{E}\int_{\mathbb{R}}x^{k}\text{d}\eta_{n}^{(m)}=\frac{1}{mk + 1} \binom{mk + k}{k}=C_{m,k}.$$
 
+The numbers defined by $$C_{m, k}$$ are in fact the single-parameter Fuss Catalan numbers (see reference [5]). Also, this last result can be seen as a generalisation of the Marchenko-Pastur law (which is essentially the case when $$m = 1$$).
 
 ### Selected References
 
@@ -123,3 +126,4 @@ $$\lim_{n\to\infty}\mathbf{E}\int_{\mathbb{R}}x^{k}\text{d}\eta_{n}^{(m)}=\frac{
 
 **[4]** N. Alexeev, F. Götze, A. Tikhomirov. “_Asymptotic Distribution of Singular Values of Powers of Random Matrices_”. Lithuanian Mathematical Journal, Vol. 50, No. 2, 2010, pp. 121-132.
 
+**[5]** Ronald L. Graham, Donald E. Knuth, Oren Patashnik, “Concrete Mathematics”. Addison-Wesley Publishing Company, 1994.

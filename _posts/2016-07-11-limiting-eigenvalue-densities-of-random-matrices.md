@@ -127,4 +127,4 @@ The integers defined by $$C_{m, k}$$ are known as the single-parameter Fuss Cata
 
 **[4]** N. Alexeev, F. Götze, A. Tikhomirov. “_Asymptotic Distribution of Singular Values of Powers of Random Matrices_”. Lithuanian Mathematical Journal, Vol. 50, No. 2, 2010, pp. 121-132.
 
-**[5]** Ronald L. Graham, Donald E. Knuth, Oren Patashnik, “Concrete Mathematics”. Addison-Wesley Publishing Company, 1994.
+**[5]** Ronald L. Graham, Donald E. Knuth, Oren Patashnik, “_Concrete Mathematics_”. Addison-Wesley Publishing Company, 1994.

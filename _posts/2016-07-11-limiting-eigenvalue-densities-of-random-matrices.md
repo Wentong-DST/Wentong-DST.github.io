@@ -39,7 +39,7 @@ Since $$X_{n}$$ is necessarily Hermitian, it has $$n$$ real eigenvalues (up to m
 
 $$\mu_{n}(x) := \frac{1}{n}\sum_{i=1}^{n}\delta_{\frac{\lambda_{i}}{\sqrt{n}}}(-\infty, x].$$
 
-Note that $$\mu_{n}$$ is a random variable, so any form of convergence is generally expected to be probabilistic. The limiting density of interest is the semicircle density,
+Note that $$\mu_{n}$$ is itself a random variable, so any form of convergence is generally expected to be probabilistic. The limiting density of interest is the semicircle density,
 
 $$\sigma(x) = \frac{1}{2\pi} \sqrt{4 - x^{2}}\cdot \chi_{[-2, 2]}.$$
 

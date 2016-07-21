@@ -104,7 +104,7 @@ The ESM for this random matrix of interest is defined by
 
 $$\eta_{n}^{(m)}(x) = \frac{1}{n}\sum_{i=1}^{n}\delta_{\frac{\lambda_{i}}{n^{m}}}(-\infty,x].$$
 
-Interestingly, the limiting density is not explicity described in the study. It is instead defined uniquely by its moments for each $$k \in \mathbb{N}$$,
+Interestingly, the limiting density is not explicity described in the study. It is instead uniquely defined by its moments for each $$k \in \mathbb{N}$$,
 
 $$C_{m, k} = \frac{1}{mk + 1} \binom{mk + k}{k}.$$
 
@@ -114,7 +114,11 @@ And similarly the convergence of expected moments can be proven, that is:
 
 $$\lim_{n\to\infty}\mathbf{E}\int_{\mathbb{R}}x^{k}\text{d}\eta_{n}^{(m)}=\frac{1}{mk + 1} \binom{mk + k}{k}=C_{m,k}.$$
 
-The integers defined by $$C_{m, k}$$ are known as the single-parameter Fuss Catalan numbers. Also, this last result can be seen as a generalisation of the Marchenko-Pastur law, which is essentially the case when $$m = 1$$.
+Some final remarks concerning this type of random matrix:
+
+1. The integers defined by $$C_{m, k}$$ are known as the single-parameter Fuss Catalan numbers. 
+
+2. This result can be seen as a generalisation of the Marchenko-Pastur law, which is essentially the case when $$m = 1$$.
 
 
 ### Selected References

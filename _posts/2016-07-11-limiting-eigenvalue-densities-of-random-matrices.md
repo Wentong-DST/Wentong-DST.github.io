@@ -6,9 +6,9 @@ author: Mark N
 categories:
 ---
 
-Early this year, I got the chance to do some undergraduate research on random matrix theory (more like a study actually). My project was recently nominated for the NUS Centre for Remote Imaging, Sensing and Processing (CRISP) Award and so I'm supposed to prepare a 20-minute talk for the judges to decide who to give the award to and whatnot. 
+Early this year, I got the chance to do some undergraduate research (UROPS) on random matrix theory (more like a study actually). My project was recently nominated for the NUS Centre for Remote Imaging, Sensing and Processing (CRISP) Award and so I'm supposed to prepare a 20-minute talk for the judges to decide who to give the award to and whatnot. 
 
-Anyways, I thought it would be nice to do a short introduction and compilation of results here first. The main mathematical tool used is [<u>the moment method</u>](https://en.wikipedia.org/wiki/Method_of_moments_(probability_theory)). Interested readers can refer to [<u>my paper</u>](/pdf/ma3288.pdf "ma3288.pdf") for detailed proofs and references. Note that there are some typos and errors which I've yet to correct (most notably the proof for counting Dyck paths).
+Anyways, I thought it would be nice to do a short introduction and compilation of results here first. The main mathematical tool used is [<u>the moment method</u>](https://en.wikipedia.org/wiki/Method_of_moments_(probability_theory)). Interested readers can refer to [<u>my UROPS paper</u>](/pdf/ma3288.pdf "ma3288.pdf") for detailed proofs and references. Note that there are some typos and errors which I've yet to correct (most notably the proof for counting Dyck paths).
 
 **What are random matrices?**
 
@@ -39,7 +39,7 @@ Since $$X_{n}$$ is necessarily Hermitian, it has $$n$$ real eigenvalues (up to m
 
 $$\mu_{n}(x) := \frac{1}{n}\sum_{i=1}^{n}\delta_{\frac{\lambda_{i}}{\sqrt{n}}}(-\infty, x].$$
 
-Note that $$\mu_{n}$$ is itself a random variable, so any form of convergence is generally expected to be probabilistic. The limiting density of interest is the semicircle density,
+Note: $$\mu_{n}$$ is a random variable (or random *measure*). The limiting density of interest is the semicircle density,
 
 $$\sigma(x) = \frac{1}{2\pi} \sqrt{4 - x^{2}}\cdot \chi_{[-2, 2]}.$$
 
@@ -49,7 +49,7 @@ The moment method focuses on proving the convergence of _expected_ moments of $$
 
 $$\lim_{n\to\infty}\mathbf{E}\int_{\mathbb{R}}x^{k}\text{d}\mu_{n}=\int_{\mathbb{R}}x^{k}\sigma(x)\text{d}x.$$
 
-Using this and other results we can prove the weak convergence $$\mu_{n}\overset{d}\longrightarrow\sigma$$, in probability:
+Using this deterministic convergence, and other results we can prove the weak convergence $$\mu_{n}\overset{d}\longrightarrow\sigma$$, in probability:
 
 **Theorem** (Wigner): The distribution $$\mu_{n}$$ converges weakly to $$\sigma$$, in probability. Equivalently, for any $$\varepsilon > 0$$ and bounded continuous test function $$f : \mathbb{R} \to \mathbb{R}$$,
 

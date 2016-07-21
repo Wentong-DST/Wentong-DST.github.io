@@ -114,7 +114,7 @@ And similarly the convergence of expected moments can be proven, that is:
 
 $$\lim_{n\to\infty}\mathbf{E}\int_{\mathbb{R}}x^{k}\text{d}\eta_{n}^{(m)}=\frac{1}{mk + 1} \binom{mk + k}{k}=C_{m,k}.$$
 
-Some final remarks concerning this type of random matrix:
+Some final remarks concerning this last result:
 
 1. The integers defined by $$C_{m, k}$$ are known as the single-parameter Fuss Catalan numbers. 
 

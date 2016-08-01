@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deep learning for nonlinear dimension reduction and applications."
-date:   2016-07-31 00:00:00 +0800
+date:   2016-07-31 08:00:00 +0800
 author: Mark N
 categories:
 ---

@@ -8,7 +8,7 @@ categories:
 
 I spent a significant proportion of my summer holidays completing yet another undergraduate research project (UROPS) in NUS, this time under the supervision of [<u>Alexandre Thiery</u>](http://www.normalesup.org/~athiery/). The topic was on deep learning and applications; following recent papers/articles (see references) concerning classification problems, autoencoders and modelling uncertainty in neural networks.
 
-Here's my [<u>UROPS paper</u>](/pdf/st3288.pdf "st3288.pdf") summarizing this project, as well as links to my relevant code repositories:
+Here's my [<u>UROPS paper</u>](/pdf/st3288.pdf "st3288.pdf") summarizing the project, as well as links to my relevant code repositories:
 
 * [<u>iris-classification</u>](https://github.com/mollymr305/iris-classification)
 * [<u>stochastic-depth</u>](https://github.com/mollymr305/stochastic-depth)

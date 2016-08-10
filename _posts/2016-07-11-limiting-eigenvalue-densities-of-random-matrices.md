@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Limiting eigenvalue densities of random matrices."
-date:   2016-07-11 03:55:00 +0800
+date:   2016-07-11 12:00:00 +0800
 author: Mark N
 categories:
 ---

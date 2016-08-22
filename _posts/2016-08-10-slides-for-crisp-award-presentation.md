@@ -6,7 +6,7 @@ author: Mark N
 categories:
 ---
 
-I recently [<u>wrote</u>](/2016/07/11/limiting-eigenvalue-densities-of-random-matrices.html) about my undergraduate research project (UROPS) which was nominated for the NUS Centre for Remote Imaging, Sensing and Processing (CRISP) Award.
+I recently wrote a [<u>post</u>](/2016/07/11/limiting-eigenvalue-densities-of-random-matrices.html) about my undergraduate research project (UROPS) which was nominated for the NUS Centre for Remote Imaging, Sensing and Processing (CRISP) Award.
 
 My project presentation will be on the 18th of August, although it is a private event (conference room, judges only etc). For those interested; see my [<u>slides</u>](/pdf/crisp.pdf) for the presentation and [<u>UROPS paper</u>](/pdf/ma3288).
 

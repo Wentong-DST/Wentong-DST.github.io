@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Slides for CRISP Award Presentation."
-date:   2016-08-10 15:00:00 +0800
+date:   2016-08-10
 author: Mark N
 categories:
 ---

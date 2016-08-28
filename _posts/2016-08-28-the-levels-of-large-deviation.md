@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The levels of large deviation."
-date:   2016-08-28 03:55:00 +0800
+date:   2016-08-28
 author: Mark N
 categories:
 ---

@@ -6,7 +6,7 @@ author: Mark N
 categories:
 ---
 
-The current title for my Honours thesis is "Large Deviations for Random Graphs". Here's a (rather dense) summary of what I've been studying so far. I'm currently on the "Large Deviations" part, and plan to post softer details concerning the Large Deviation Principle (LDP) in the near future -- assuming the kindness of time.
+I will be studying "Large Deviations for Random Graphs" for my Honours thesis. Here's a (rather dense) summary of what I've been studying so far. I'm currently on the "Large Deviations" part, and plan to post softer details concerning the Large Deviation Principle (LDP) in the near future -- assuming the kindness of time.
 
 Large deviation theory is the study of probabilities of rare events (and for example, their rate of decay). There are different "levels" of generalisation in large deviation theory. Level 1 is also known as Cramer's theorem for the empirical average, Level 2 is Sanov's theorem for the empirical measure and Level 3 concerns the slightly abstract large deviation for the empirical process.
 

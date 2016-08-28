@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The levels of large deviation."
+title:  "Levels of large deviation."
 date:   2016-08-28
 author: Mark N
 categories:

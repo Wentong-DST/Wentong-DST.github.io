@@ -5,26 +5,26 @@ highlight_color: '#000000'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: mollymr305
+  github: Wentong-DST
   #bitbucket: 
   #hacker_news: 
   #stackexchange: 
   #stackoverflow: 
-  twitter: mollymr305
+  #twitter: 
   #facebook: 
   #tumblr: 
-  linkedin: mark-ng-a237b889
+  #linkedin: 
   #gplus: 
   #gravatar: 
   #flickr: 
 
 # "Hi, I'm _______"
-name: Mark N
-email: markngsayyao@gmail.com
-tagline: "Sleep when you're dead."
+name: Wentong
+# email: 
+# tagline: "Sleep when you're dead."
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-80460356-1
+google_analytics_key: UA-93886808-1
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true

@@ -18,16 +18,16 @@ social:
   #gravatar: 
   #flickr: 
 
-# "Hi, I'm _______"
+"Hi, I'm _______"
 name: Wentong
 # email: 
-# tagline: "Sleep when you're dead."
+# tagline: ""
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-93886808-1
 
 # Toggle "Postings are my own" disclaimer in footer
-show_disclaimer: true
+show_disclaimer: false
 
 # Toggle link/icon to view atom feed (/atom.xml) in sidebar
 # show_atom_feed: true

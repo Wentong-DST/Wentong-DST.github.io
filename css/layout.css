@@ -410,18 +410,22 @@ ul#nav li.current a { color: #F06000; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#link {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
 }
-#portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+#link h2 {
+   /*font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #95A3A3;*/
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #95A3A3;
 }
 
 /* Portfolio Content */
@@ -436,10 +440,6 @@ ul#nav li.current a { color: #F06000; }
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-}
-.portfolio-item .item-wrap a {
-   display: block;
-   cursor: pointer;
 }
 
 /* overlay */

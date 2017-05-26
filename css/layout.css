@@ -15,6 +15,9 @@
    g. Testimonials Section
    h. Contact Section
    i. Footer
+   j. Download
+   k. Pricing
+   l. stats
 
 ===================================================================== */
 
@@ -1004,3 +1007,399 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
+
+
+/* ===================================================================
+ *  14. download - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+#download {
+  background: #39b54a;
+  color: #b2fabc;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  text-align: center;
+}
+
+#download h1 {
+  color: #ffffff;
+}
+
+#download h1::before {
+  background-color: #2a9038;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+#download .lead {
+  color: #b2fabc;
+  margin-top: 4.8rem;
+}
+
+#download .row {
+  max-width: 800px;
+}
+
+#download .download-badges {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+#download .download-badges li {
+  display: inline-block;
+  margin: 0 7.5px;
+  padding-left: 0;
+}
+
+#download .download-badges li a {
+  display: block;
+  width: 230px;
+  height: 71px;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 230px 71px;
+}
+
+#download .download-badges li a.badge-appstore {
+  background-image: url("../images/appstore.png");
+}
+
+#download .download-badges li a.badge-googleplay {
+  background-image: url("../images/google-play.png");
+}
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * download
+ * ------------------------------------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+  #download .download-badges li a {
+    width: 194px;
+    height: 60px;
+    background-size: 194px 60px;
+  }
+}
+
+
+
+/* ===================================================================
+ * 14. stats - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#stats {
+	background: #001835;
+	padding-top: 7.2rem;
+	padding-bottom: 4.8rem;
+	text-align: center;
+}
+
+#stats .row {
+	max-width: 1440px;
+}
+
+#stats .stat {
+	min-height: 17.4rem;
+	padding-bottom: 1.5rem;
+}
+
+#stats .icon-part {
+	position: relative;
+	padding-bottom: 2.1rem;
+}
+
+#stats .icon-part::after {
+	content: "";
+	display: block;
+	width: 80px;
+	height: 1px;
+	background: rgba(249, 218, 79, 0.5);
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+}
+
+#stats .icon-part i {
+	font-size: 6rem;
+	color: #f9da4f;
+}
+
+#stats .stat-count {
+	color: #FFFFFF;
+	font-size: 3.6rem;
+	margin-top: 1.2rem;
+	margin-bottom: 0;
+	font-family: "roboto-medium", sans-serif;
+	color: white;
+}
+
+#stats .stat-title {
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 1.4rem;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * stats 
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:1024px) {
+	#stats .stat:nth-child(n) {
+		border-left: 1px solid rgba(255, 255, 255, 0.05);
+		padding-bottom: 1.5rem;
+	}
+
+	#stats .stat:nth-child(3n+1) {
+		border: none;
+	}
+
+}
+
+@media only screen and (max-width:768px) {
+	#stats .stat:nth-child(n) {
+		border-left: 1px solid rgba(255, 255, 255, 0.05);
+	}
+
+	#stats .stat:nth-child(2n+1) {
+		border: none;
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	#stats .stat:nth-child(n) {
+		border: none;
+	}
+
+}
+
+
+/* ===================================================================
+ * 15. pricing - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+#pricing {
+	background: #e2e5e7;
+	padding-top: 12rem;
+	padding-bottom: 9.6rem;
+}
+
+.pricing-content {
+	margin-top: 3rem;
+	max-width: 1080px;
+}
+
+.pricing-content .bgrid {
+	margin-bottom: 3.9rem;
+	padding: 0 20px;
+}
+
+.pricing-content .price-block {
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 6rem 0 4.8rem;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+
+.pricing-content .price-block .bottom-part {
+	padding-top: 2.4rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.pricing-content .price-block .plan-title {
+	padding-bottom: 2.4rem;
+	font-size: 2.4rem;
+	font-family: "roboto-bold";
+	position: relative;
+}
+
+.pricing-content .price-block .plan-title::after {
+	display: block;
+	background-color: rgba(0, 24, 53, 0.3);
+	width: 80px;
+	height: 3px;
+	content: '\0020';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -40px;
+}
+
+.pricing-content .price-block .plan-price {
+	font-family: "domine-bold", serif;
+	color: #001835;
+	font-size: 6.5rem;
+	line-height: 1;
+	margin-top: 4.2rem;
+	margin-bottom: 0;
+}
+
+.pricing-content .price-block .plan-price sup {
+	font-family: "roboto-black", sans-serif;
+	font-size: 2.4rem;
+	top: -3rem;
+	margin-right: 3px;
+}
+
+.pricing-content .price-block .price-month {
+	margin-bottom: 1.2rem;
+	font-family: "roboto-regular", sans-serif;
+	font-size: 1.8rem;
+	color: #3f4452;
+}
+
+.pricing-content .price-block .features {
+	list-style: none;
+	font-family: "roboto-regular", sans-serif;
+	font-size: 1.6rem;
+	color: rgba(0, 0, 0, 0.5);
+	margin: 0 0 4.2rem 0;
+}
+
+.pricing-content .price-block .features li {
+	padding: .6rem 0;
+	border-bottom: 1px solid rgba(63, 80, 96, 0.15);
+}
+
+.pricing-content .price-block .features li strong {
+	color: #001835;
+	font-family: "roboto-black", serif;
+	color: #001835;
+	margin-right: 5px;
+}
+
+.pricing-content .price-block .features li:last-child {
+	border: none;
+}
+
+.pricing-content .price-block .button {
+	background: #002f68;
+	color: #FFFFFF;
+	padding: 0 5rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pricing-content .price-block .button:hover,
+.pricing-content .price-block .button:focus {
+	background: #002a5e;
+	color: #FFFFFF;
+}
+
+.pricing-content .primary {
+	background: #002f68;
+	color: #FFFFFF;
+}
+
+.pricing-content .primary::before {
+	content: attr(data-info);
+	display: block;
+	min-height: 48px;
+	line-height: 48px;
+	width: 60%;
+	text-align: center;
+	color: #FFFFFF;
+	background: #ed254d;
+	font-family: "roboto-black", sans-serif;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	-webkit-transform: translate(-50%);
+	-ms-transform: translate(-50%);
+	transform: translate(-50%);
+}
+
+.pricing-content .primary .plan-title {
+	color: #FFFFFF;
+}
+
+.pricing-content .primary .plan-title::after {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.pricing-content .primary .plan-price {
+	color: #FFFFFF;
+}
+
+.pricing-content .primary .price-month {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.pricing-content .primary .button {
+	background: #FFFFFF;
+	color: #001835;
+}
+
+.pricing-content .primary .button:hover,
+.pricing-content .primary .button:focus {
+	background: #002149;
+}
+
+.pricing-content .primary .features {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.pricing-content .primary .features li {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.pricing-content .primary .features li strong {
+	color: #FFFFFF;
+}
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * pricing 
+ * ------------------------------------------------------------------- */
+@media only screen and (max-width:1024px) {
+	.pricing-content {
+		max-width: 650px;
+	}
+
+	.pricing-content .bgrid {
+		padding: 0;
+		width: 50%;
+		clear: none;
+	}
+
+	.pricing-content .bgrid:nth-child(2n+1) {
+		clear: both;
+	}
+
+	.pricing-content .bgrid:last-child {
+		clear: both;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	.pricing-content {
+		max-width: 400px;
+	}
+
+	.pricing-content .bgrid {
+		width: 100% !important;
+		float: none !important;
+		clear: both !important;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+}
